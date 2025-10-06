@@ -1,5 +1,9 @@
 # staking-deposit-cli
 
+> **⚠️ DEPRECATED: This repository has been deprecated and is no longer maintained.**
+>
+> **Please use the actively maintained fork at [ethstaker/ethstaker-deposit-cli](https://github.com/ethstaker/ethstaker-deposit-cli)**
+
 [![GitPOAP Badge](https://public-api.gitpoap.io/v1/repo/ethereum/staking-deposit-cli/badge)](https://www.gitpoap.io/gh/ethereum/staking-deposit-cli)
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->

@@ -59,5 +59,17 @@ cli.add_command(generate_bls_to_execution_change)
 
 if __name__ == '__main__':
     check_python_version()
-    print('\n***Using the tool on an offline and secure device is highly recommended to keep your mnemonic safe.***\n')
+
+    # Display deprecation warning
+    print('\n' + '=' * 80)
+    print('⚠️  DEPRECATION WARNING')
+    print('=' * 80)
+    print('This repository (ethereum/staking-deposit-cli) has been DEPRECATED.')
+    print('It is no longer maintained and may contain security vulnerabilities.')
+    print('')
+    print('Please use the actively maintained fork instead:')
+    print('    https://github.com/ethstaker/ethstaker-deposit-cli')
+    print('=' * 80 + '\n')
+
+    print('***Using the tool on an offline and secure device is highly recommended to keep your mnemonic safe.***\n')
     cli()

@@ -1,9 +1,18 @@
+# ⚠️ DEPRECATED: This repository has been deprecated and is no longer maintained.
+# Please use the actively maintained fork at https://github.com/ethstaker/ethstaker-deposit-cli
+
 VENV_NAME?=venv
 VENV_ACTIVATE=. $(VENV_NAME)/bin/activate
 PYTHON=${VENV_NAME}/bin/python3.12
 DOCKER_IMAGE="ethereum/staking-deposit-cli:latest"
 
 help:
+	@echo ""
+	@echo "================================================================================"
+	@echo "⚠️  This repository has been DEPRECATED"
+	@echo "    Please use: https://github.com/ethstaker/ethstaker-deposit-cli"
+	@echo "================================================================================"
+	@echo ""
 	@echo "clean - remove build and Python file artifacts"
 	# Run with venv
 	@echo "venv_deposit - run deposit cli with venv"
